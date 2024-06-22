@@ -1,0 +1,48 @@
+/* Videos.css */
+.videos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 1.5rem;
+    transition: all 0.4s ease;
+    opacity: 0;
+    animation: fade-in 0.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.video {
+    transition: all 0.4s ease;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.video h4 {
+    color: #32ffce;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.video p {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}

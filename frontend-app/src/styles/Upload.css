@@ -1,0 +1,82 @@
+/* Upload.css */
+.upload-container {
+    position: fixed;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background: #262626;  
+    padding: 2rem; 
+    border-radius: 15px;
+    box-shadow: 3px 5px 30px rgba(255,255,255,0.1);
+}
+
+.upload-container h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.upload-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.upload-container .input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-container .input-control input,
+.upload-container .input-control textarea {
+    padding: .8rem 1rem;
+    border: 1px solid rgb(74 74 74);
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    background: transparent;
+    color: #fff;
+}
+
+.upload-container .input-control label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.upload-container .inner-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed rgb(74 74 74);
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    height: 90px;
+    position: relative;
+}
+
+.upload-container .inner-label {
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(74 74 74);
+}
+
+.upload-container .upload-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}

@@ -1,0 +1,125 @@
+.x-ray-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.x-ray-content::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.x-ray-content::-webkit-scrollbar-thumb {
+    background-color: rgb(113, 177, 244); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.x-ray-content::-webkit-scrollbar-track {
+    background: transparent; /* Background of the scrollbar track */
+}
+
+.x-ray-modal {
+  background: #000000b3;
+  padding: 7%;
+  color: white;
+  padding-top: 5%;
+  height: 100%; /* Adjusted height for the modal */
+  width: 100%; /* Adjusted width for the modal */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.x-ray-content {
+  text-align: center;
+  height: 100%; /* Full height for the content area */
+  overflow-y: auto; /* Adds vertical scrollbar */
+  padding-right: 10px; /* Space for the scrollbar */
+}
+
+
+
+.x-ray-content h2 {
+  margin-bottom: 1rem;
+}
+
+.products {
+  padding: 10px 0;
+}
+
+.product-row {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 2%;
+  margin-bottom: 10px;
+}
+
+.product-row img {
+  border-radius: 10px;
+  margin-right: 2%;
+  width: 135px;
+  height: 135px;
+}
+
+.similar-products {
+  display: flex;
+  overflow-x: auto; /* Adds horizontal scrollbar */
+  padding-bottom: 10px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+
+.similar-products::-webkit-scrollbar {
+  height: 8px; /* Height of the scrollbar */
+}
+
+.similar-products::-webkit-scrollbar-thumb {
+  background-color: rgb(173, 216, 230); /* Bluish white color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.similar-products::-webkit-scrollbar-track {
+  background: transparent; /* Background of the scrollbar track */
+}
+
+.similar-product {
+  display: inline-block;
+  margin: 0px 4% 0px 4%;
+}
+
+.similar-products img {
+  width: 100px;
+  height: 100px;
+}
+
+.product-link {
+  display: block;
+  margin-top: 5px;
+  padding: 5%;
+  background: #ffb800;
+  border: 1px solid #ffb800;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: underline;
+  font-size: 0.8rem;
+  text-align: center;
+}

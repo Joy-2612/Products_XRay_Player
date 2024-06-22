@@ -1,0 +1,19 @@
+/* App.css */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    background: url('https://i.vimeocdn.com/video/1658044260-1ccb3f3e2871a60fdaf16cc35c6b6d5656cc20f76a83546fb4077db8fdb1b79e-d_640?f=webp') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .banner-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to top, black 20%, transparent 20%);
+  }
+  
