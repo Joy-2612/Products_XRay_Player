@@ -10,21 +10,19 @@ This project extends the Amazon Prime Video X-Ray feature to show product recomm
 - **In-Player Display**: Shows product recommendations with images and links within the video player.
 - **MERN Stack Integration**: Includes a video player built with MongoDB, Express, React, and Node.js.
 
-
-## ScreenShots
+## Screenshots
 
 #### Home Page
 
-## ![ScreenShot](./frontend-app/screenshots/Screenshot%20(236).png)
+## ![ScreenShot](<./frontend-app/screenshots/Screenshot%20(236).png>)
 
 #### Video Player
 
-## ![ScreenShots](./frontend-app/screenshots/Screenshot%20(234).png)
+## ![ScreenShots](<./frontend-app/screenshots/Screenshot%20(234).png>)
 
 #### Product Recommendations
 
-## ![ScreenShots](./frontend-app/screenshots/Screenshot%20(233).png)
-
+## ![ScreenShots](<./frontend-app/screenshots/Screenshot%20(233).png>)
 
 ## Run on your Device
 
