@@ -116,7 +116,7 @@ def search():
         dense = model.encode([image]).tolist()
         print("Hello4")
         # Combine the encodings
-        hdense, hsparse = hybrid_scale(dense, sparse, alpha=0.5)
+        hdense, hsparse = hybrid_scale(dense, sparse, alpha=1)
         print("Hello5")
         # Perform the search using the precomputed embeddings
         results = index.query(
