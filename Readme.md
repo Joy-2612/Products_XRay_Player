@@ -63,4 +63,4 @@ Start the frontend
   npm start
 ```
 
-- Made by [@Joy-2612](https://github.com/Joy-2612)
+- Made by [@Joy-2612](https://github.com/Joy-2612) and [@raj128](https://github.com/raj128) 
